@@ -1,0 +1,127 @@
+{
+  "data": {
+    "metaData": {
+      "id": "-MuzebKM_MaZ0zoKo3mG",
+      "statusField": ""
+    },
+    "nodes": [
+      {
+        "id": "node1643893130274",
+        "x": 361.43,
+        "y": 60.43,
+        "width": 191,
+        "height": 65,
+        "attachment": {},
+        "name": "start-event",
+        "clazz": "startEvent",
+        "label": "Start Event",
+        "icon": {
+          "name": "flag",
+          "color": "hsl(154, 64%, 49%)"
+        }
+      },
+      {
+        "id": "node1643893143103",
+        "x": 361,
+        "y": 243.29,
+        "width": 191,
+        "height": 65,
+        "attachment": {
+          "script": "console.log('workflow 2 step 1')"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1643900429611",
+        "x": 360.18,
+        "y": 459.81,
+        "width": 191,
+        "height": 65,
+        "attachment": {
+          "script": "console.log(\"workflow 2 step 2 test123\");\r\n"
+        },
+        "name": "script-task",
+        "clazz": "scriptTask",
+        "label": "Script Task",
+        "icon": {
+          "name": "terminal",
+          "color": "hsl(218, 54%, 20%)"
+        }
+      },
+      {
+        "id": "node1643900446061",
+        "x": 360.89,
+        "y": 709.82,
+        "width": 191,
+        "height": 65,
+        "attachment": {},
+        "name": "end-event",
+        "clazz": "endEvent",
+        "label": "End Event",
+        "icon": {
+          "name": "stop-circle",
+          "color": "hsl(348, 91%, 59%)"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "node1643893130274-bottom",
+        "target": "node1643893143103",
+        "endSocket": "top",
+        "id": "line-1643893161806",
+        "label": "Start Event",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1643893143103-bottom",
+        "target": "node1643900429611",
+        "endSocket": "top",
+        "id": "line-1643900453954",
+        "label": "Script Task",
+        "targetLabel": "Script Task",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      },
+      {
+        "source": "node1643900429611-bottom",
+        "target": "node1643900446061",
+        "endSocket": "top",
+        "id": "line-1643900462571",
+        "label": "Script Task",
+        "targetLabel": "End Event",
+        "type": {
+          "startPlug": "behind",
+          "color": "#5e73e4",
+          "size": 2,
+          "path": "grid",
+          "dash": null
+        }
+      }
+    ],
+    "transform": {
+      "x": 229.16862279733226,
+      "y": -7.022555711918102,
+      "scale": 0.3858280142616697
+    }
+  },
+  "name": "Workflow 2"
+}

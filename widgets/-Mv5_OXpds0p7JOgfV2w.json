@@ -1,0 +1,13 @@
+{
+  "gsOptions": {
+    "h": 6,
+    "w": 12,
+    "x": 0,
+    "y": 0
+  },
+  "layout": "b-card",
+  "offSet": 0,
+  "perPage": 2,
+  "tab": "-MuzeFZIVeTPsgrH5AdK",
+  "template": "<b-button @click=\"callWf({ workflow: '-MuzeMpLe6kvd5ADB8EL' })\">Run Workflow 1</b-button>"
+}

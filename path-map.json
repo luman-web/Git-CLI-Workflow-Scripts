@@ -1,0 +1,40 @@
+{
+  "tables/pages.json": {
+    "savePath": "models/pages"
+  },
+  "pages/-MuzeFZIVeTPsgrH5AdK.json": {
+    "savePath": "tabs/-MuzeFZIVeTPsgrH5AdK"
+  },
+  "widgets/-Mv5_OXpds0p7JOgfV2w.json": {
+    "savePath": "widgets/-Mv5_OXpds0p7JOgfV2w"
+  },
+  "workflow/Workflow 1 (-MuzeMpLe6kvd5ADB8EL).json": {
+    "savePath": "workflow/-MuzeMpLe6kvd5ADB8EL",
+    "conversion": "workflow"
+  },
+  "workflow/Workflow 2 (-MuzebKM_MaZ0zoKo3mG).json": {
+    "savePath": "workflow/-MuzebKM_MaZ0zoKo3mG",
+    "conversion": "workflow"
+  },
+  "workflow/scriptTasks/Workflow 1/Script Task (node1643893077514).js": {
+    "savePath": "workflow/-MuzeMpLe6kvd5ADB8EL",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-MuzeMpLe6kvd5ADB8EL",
+    "workflowFile": "workflow/Workflow 1 (-MuzeMpLe6kvd5ADB8EL).json",
+    "nodeId": "node1643893077514"
+  },
+  "workflow/scriptTasks/Workflow 2/Script Task (node1643893143103).js": {
+    "savePath": "workflow/-MuzebKM_MaZ0zoKo3mG",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-MuzebKM_MaZ0zoKo3mG",
+    "workflowFile": "workflow/Workflow 2 (-MuzebKM_MaZ0zoKo3mG).json",
+    "nodeId": "node1643893143103"
+  },
+  "workflow/scriptTasks/Workflow 2/Script Task (node1643900429611).js": {
+    "savePath": "workflow/-MuzebKM_MaZ0zoKo3mG",
+    "isWorkflowScriptTask": true,
+    "workflowId": "-MuzebKM_MaZ0zoKo3mG",
+    "workflowFile": "workflow/Workflow 2 (-MuzebKM_MaZ0zoKo3mG).json",
+    "nodeId": "node1643900429611"
+  }
+}
